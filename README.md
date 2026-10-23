@@ -3,6 +3,7 @@
 
 **For Young People**
 > A profile that shows your real impact, a feed matched to your causes, and one place to track every application.
+
 **For Organizations**
 > Reach motivated young people in 190+ countries. Verified organizations can post opportunities and review applicants.
 
