@@ -1,0 +1,42 @@
+{
+  "name": "youthink",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Youthink — discover volunteering, MUN, youth councils and civic opportunities worldwide.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "db:push": "prisma db push",
+    "db:seed": "prisma db seed",
+    "db:reset": "prisma db push --force-reset && prisma db seed",
+    "db:studio": "prisma studio"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.mts"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.8",
+    "@prisma/client": "6.19.3",
+    "bcryptjs": "^3.0.3",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.61.0",
+    "next": "15.5.28",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "autoprefixer": "^10.4.21",
+    "dotenv": "^17.2.3",
+    "postcss": "^8.5.6",
+    "prisma": "6.19.3",
+    "tailwindcss": "3.4.19",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  }
+}
